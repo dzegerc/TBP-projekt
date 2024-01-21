@@ -1,0 +1,32 @@
+.navigacija {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    list-style: none;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigacija ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigacija li {
+    list-style-type: none;
+    margin-right: 20px; 
+    padding: 10px;
+    background-color: #C1C7C1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #C1C7C1;
+  }
+  
+  .navigacija a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,19 @@
+*{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+body{
+  background-image: url('./assets/pozadina.jpg'); /* Ako koristite lokalnu sliku */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0; /* Uklanja defaultni margin oko body elementa */
+  height: 100%;
+}
+
+
