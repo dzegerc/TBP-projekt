@@ -72,8 +72,10 @@ const TaskPage = () => {
             <h3>{task.naziv_taska}</h3>
             <p>{task.opis_taska}</p>
             <p>Početak: {task.datum_pocetka}</p>
-            <p>Završetak: {task.datum_zavrsetka}</p>
-            <button onClick={() => postaviTrenutniTask(task)}>Ažuriraj</button>
+            <p>Završetak: {task.datum_zavrsetka}</p> 
+            {(uloga === 'Administrator' || uloga === 'Moderator') && (
+              <button onClick={() => postaviTrenutniTask(task)}>Ažuriraj</button>
+            )}
           </div>
           <UpdateTask 
               isOpen={selectedTask !== null} 

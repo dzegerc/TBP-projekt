@@ -55,7 +55,7 @@ const SviKorisnici = () => {
 
     const openEditModal = () => {
       setIsModalOpen(false); 
-      setIsEditModalOpen(true); e
+      setIsEditModalOpen(true); 
       console.log("Edit modal opened"); 
 
     };

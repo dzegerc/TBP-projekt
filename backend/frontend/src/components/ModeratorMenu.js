@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const ModeratorMenu = () => {
-  const uloga = localStorage.getItem("uloga");je
+  const uloga = localStorage.getItem("uloga");
 
   if (uloga !== "Moderator") {
     return null;
