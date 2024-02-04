@@ -60,7 +60,6 @@ const handleSubmit = (e) => {
   e.preventDefault();
   const odabranaUlogaId = uloge.find(uloga => uloga.naziv_uloge === ulogaKorisnik)?.id;
   
-  // Ažurirani korisnik s ispravnim oblikom adrese
   const handleSubmit = (e) => {
     e.preventDefault();
     const odabranaUlogaId = uloge.find((uloga) => uloga.naziv_uloge === ulogaKorisnik)?.id;
@@ -77,8 +76,7 @@ const handleSubmit = (e) => {
         postanskiBroj,
       },
       prava_pristupa: pravaPristupa.map((pravo) => {
-        // Ovdje bi trebali mapirati prava pristupa na njihove ID-ove ili nazive ako je potrebno
-        return pravo; // Ovo je placeholder, potrebno je prilagoditi ovisno o vašem slučaju
+        return pravo; 
       }),
     };
   
